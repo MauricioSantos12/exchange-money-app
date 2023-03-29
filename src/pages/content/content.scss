@@ -1,0 +1,117 @@
+.container--data {
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+}
+
+.content--container {
+    display: flex;
+    padding: 4rem 3rem 0rem 3rem;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.input--container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input--container p {
+    font-size: 1.2rem;
+}
+
+.input--container input, select {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.container--icon--repeat {
+    border-radius: 50%;
+    border: 1px solid var(--bg);
+    padding: 10px;
+}
+
+.icon--repeat {
+    width: 30px;
+    height: 25px;
+}
+
+.button--container {
+    display: flex;
+    padding: 1.5rem 3rem 0rem 3rem;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button--container button{
+    border: 1px solid var(--bg);
+    background-color: var(--white);
+    color: var(--bg);
+    width: 120px;
+    height: 40px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.button--container button:hover{
+    background-color: var(--bg);
+    color: var(--white);
+    transition: 0.7s ease;
+}
+
+
+.answer--container {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 3rem 4rem 3rem;
+    gap: 20px;
+    align-items: center;
+}
+
+.answer--container p {
+    font-size: 1rem;
+}
+
+.answer--container span {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+.container--loading {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    z-index: 100;
+    gap: 15px;
+}
+
+.container--loading p {
+    color: #FF3D00;
+}
+
+@media screen and (max-width: 769px) {
+    .content--container {
+        padding: 3rem 2rem 0rem 2rem;
+        flex-direction: column;
+    }
+
+    .button--container {
+        justify-content: center;
+    }
+
+    .answer--container {
+        padding: 1.5rem 3rem 1.5rem 3rem;
+    }
+}

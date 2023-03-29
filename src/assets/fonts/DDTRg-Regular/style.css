@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ddt';
+    src: local('Ddt Regular'), local('Ddt-Regular'),
+        url('DDTRg-Regular.woff2') format('woff2'),
+        url('DDTRg-Regular.woff') format('woff'),
+        url('DDTRg-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
